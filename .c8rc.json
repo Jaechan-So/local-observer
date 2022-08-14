@@ -1,0 +1,7 @@
+{
+    "all": true,
+    "include": ["src/**/!(*.test.*).[tj]s?(x)"],
+    "exclude": ["src/types"],
+    "reporter": ["html", "lcov", "text", "text-summary"],
+    "report-dir": "coverage"
+}

@@ -1,0 +1,6 @@
+# don't ever make pretty node_modules
+node_modules
+# don't make pretty build output (make sure it's set to your correct build folder name)
+dist
+# don't make pretty c8 coverage output
+coverage
